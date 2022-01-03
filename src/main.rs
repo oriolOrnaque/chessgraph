@@ -16,7 +16,7 @@ use trie::{Trie};
 
 fn main() {
     let matches = App::new("chessgraph")
-        .about("Graph chess games into a trie")
+        .about("Create graphs from chess games")
         .version("0.0.1")
         .arg(
             Arg::new("output")
